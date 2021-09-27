@@ -1,8 +1,9 @@
 <?php
 
-require __DIR__ . '/fizzbuzz.php';
+require __DIR__.'/fizzbuzz.php';
 
-function check(int $value, string $expected): void {
+function check(int $value, string $expected): void
+{
     $result = fizzbuzz($value);
 
     if ($result === $expected) {
